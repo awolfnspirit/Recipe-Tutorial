@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +8,8 @@ namespace Recipe_Tutorial
 {
     public partial class App : Application
     {
+        public static IEnumerable AllRecipes { get; internal set; }
+
         public App()
         {
             InitializeComponent();

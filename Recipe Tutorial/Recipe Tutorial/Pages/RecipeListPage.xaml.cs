@@ -13,5 +13,13 @@ namespace Recipe_Tutorial
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            recipesList.ItemSource = null;
+            recipesList.ItemSource = App.AllRecipes;
+        }
     }
 }
