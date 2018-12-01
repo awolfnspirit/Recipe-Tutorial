@@ -12,14 +12,18 @@ namespace Recipe_Tutorial
         public MainPage()
         {
             InitializeComponent();
+
+
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            recipesList.ItemSource = null;
-            recipesList.ItemSource = App.AllRecipes;
+            recipesList.ItemsSource = null;
+            recipesList.ItemsSource = App.AllRecipes;
         }
+
+        
     }
 }
