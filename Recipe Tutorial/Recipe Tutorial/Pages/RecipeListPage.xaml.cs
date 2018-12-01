@@ -5,15 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Recipe_Tutorial
+namespace RecipeTutorial
 {
-    public partial class MainPage : ContentPage
+    public partial class RecipeListPage : ContentPage
     {
-        public MainPage()
+        public RecipeListPage()
         {
             InitializeComponent();
 
+            recipesList.ItemSelected += async (sender, e) =>
+            {
+                if (e.SelectedItem != null)
+                {
+                    var detailPage = new RecipeDetailPage(e.SelectedItem as Recipe);
 
+                    await Navigation.PushAsync(detailPage);
+
+                    recipesList.SelectedItem = null;
+                }
+            };
         }
 
         protected override void OnAppearing()

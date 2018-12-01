@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Recipe Tutorial.Pages
+namespace RecipeTutorial
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class RecipeEditPage : ContentPage
@@ -16,5 +16,5 @@ namespace Recipe Tutorial.Pages
 		{
 			InitializeComponent ();
 		}
-	}
+    }
 }

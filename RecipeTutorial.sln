@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe Tutorial.Android", "Recipe Tutorial\Recipe Tutorial.Android\Recipe Tutorial.Android.csproj", "{5B244262-0723-4339-A2FF-D75CB055575E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeTutorial.Android", "Recipe Tutorial\Recipe Tutorial.Android\RecipeTutorial.Android.csproj", "{5B244262-0723-4339-A2FF-D75CB055575E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe Tutorial.iOS", "Recipe Tutorial\Recipe Tutorial.iOS\Recipe Tutorial.iOS.csproj", "{71049F01-30E0-4279-AC1B-A2BE829F52C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeTutorial.iOS", "Recipe Tutorial\Recipe Tutorial.iOS\RecipeTutorial.iOS.csproj", "{71049F01-30E0-4279-AC1B-A2BE829F52C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe Tutorial.UWP", "Recipe Tutorial\Recipe Tutorial.UWP\Recipe Tutorial.UWP.csproj", "{3250A496-87AA-4E4E-B393-C429A0943B52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeTutorial.UWP", "Recipe Tutorial\Recipe Tutorial.UWP\RecipeTutorial.UWP.csproj", "{3250A496-87AA-4E4E-B393-C429A0943B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe Tutorial", "Recipe Tutorial\Recipe Tutorial\Recipe Tutorial.csproj", "{B569E9A0-646F-4132-9121-51415559E8AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeTutorial", "Recipe Tutorial\Recipe Tutorial\RecipeTutorial.csproj", "{B569E9A0-646F-4132-9121-51415559E8AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

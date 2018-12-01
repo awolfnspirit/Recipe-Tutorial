@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace Recipe_Tutorial.UWP
+namespace RecipeTutorial.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace Recipe_Tutorial.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new Recipe_Tutorial.App());
+            LoadApplication(new RecipeTutorial.App());
         }
     }
 }

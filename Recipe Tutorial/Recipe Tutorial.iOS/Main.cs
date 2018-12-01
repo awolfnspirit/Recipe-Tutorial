@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Recipe_Tutorial.iOS
+namespace RecipeTutorial.iOS
 {
     public class Application
     {

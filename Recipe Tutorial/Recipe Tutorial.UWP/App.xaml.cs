@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace Recipe_Tutorial.UWP
+namespace RecipeTutorial.UWP
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

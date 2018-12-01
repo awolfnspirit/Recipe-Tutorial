@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Recipe_Tutorial
+namespace RecipeTutorial
 {
     public partial class App : Application
     {
-        public static IEnumerable AllRecipes { get; internal set; }
+        public static List<Recipe> AllRecipes { get; set; }
 
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            
         }
 
         protected override void OnStart()

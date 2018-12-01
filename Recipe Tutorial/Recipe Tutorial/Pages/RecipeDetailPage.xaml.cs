@@ -7,14 +7,21 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Recipe Tutorial.Pages
+namespace RecipeTutorial
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RecipeDetailPage : ContentPage
-	{
-		public RecipeDetailPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class RecipeDetailPage : ContentPage
+    {
+        private Recipe recipe;
+
+        public RecipeDetailPage()
+        {
+            InitializeComponent();
+        }
+
+        public RecipeDetailPage(Recipe recipe)
+        {
+            this.recipe = recipe;
+        }
+    }
 }
